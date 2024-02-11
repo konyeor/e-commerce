@@ -16,10 +16,14 @@
     }
 
     .right-nav {
-        width: 50vw;
+        width: 60vw;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .right-nav i {
+        font-size: 15px;
     }
 
     .burger {
@@ -36,10 +40,11 @@
 
     /*-------CONTAINER-------*/
     .container {
-        margin-top: 4vh;
+        /* margin-top: 4vh; */
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
+        padding: 50px;
     }
 
     .category {
